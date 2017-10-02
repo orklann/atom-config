@@ -1,0 +1,27 @@
+"*":
+  _dartlang:
+    _firstRun: true
+    _version: "0.7.0"
+  "atom-package-deps":
+    ignored: [
+      "linter"
+    ]
+  "atom-toolbar":
+    visible: false
+  "autocomplete-plus":
+    autoActivationDelay: 500
+  core:
+    followSymlinks: false
+    telemetryConsent: "no"
+    titleBar: "hidden"
+  dartlang:
+    sdkLocation: "/usr/local/opt/dart/libexec"
+    sendUsage: false
+    showOutlineView: false
+  editor:
+    fontFamily: "Andale Mono"
+    fontSize: 13
+  "exception-reporting":
+    userId: "84597031-1968-4be8-b75c-742e4c300697"
+  welcome:
+    showOnStartup: false
