@@ -1,7 +1,7 @@
 "*":
   _dartlang:
     _firstRun: true
-    _version: "0.7.0"
+    _version: "0.7.1"
   "atom-package-deps":
     ignored: [
       "linter"
@@ -11,13 +11,15 @@
   "autocomplete-plus":
     autoActivationDelay: 500
   core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "spell-check"
+    ]
     followSymlinks: false
     telemetryConsent: "no"
-    titleBar: "hidden"
   dartlang:
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
-    showOutlineView: false
   editor:
     fontFamily: "Andale Mono"
     fontSize: 13
