@@ -23,6 +23,7 @@
   editor:
     fontFamily: "Andale Mono"
     fontSize: 13
+    softWrap: true
   "exception-reporting":
     userId: "84597031-1968-4be8-b75c-742e4c300697"
   "one-dark-ui": {}
