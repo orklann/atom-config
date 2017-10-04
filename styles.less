@@ -34,6 +34,17 @@ atom-text-editor .cursor {
 .theme-one-dark-ui {
 .tab-bar { /*font-size: 18px; */}
   .tree-view { font-size: 13px; }
+  // Move `*` before current path
+  status-bar .file-info.buffer-modified::before {
+      content: '* ';
+      color: black;
+      font-size: 14px;
+  }
+
+  status-bar .file-info.buffer-modified::after {
+    content: "" !important;
+  }
+
   // .status-bar { height: 26px; line-height: 26px; font-size: 13px; font-family: "Andale Mono"; background-color: #5676cc; color: white !important;}
   .status-bar { height: 26px; line-height: 26px; font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #5676cc; color: white !important;}
   .status-bar * {color: white !important; font-weight: bold;}
