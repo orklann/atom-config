@@ -46,6 +46,22 @@ atom-text-editor .cursor {
   }
 
   // .status-bar { height: 26px; line-height: 26px; font-size: 13px; font-family: "Andale Mono"; background-color: #5676cc; color: white !important;}
-  .status-bar { height: 26px; line-height: 26px; font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #5676cc; color: white !important;}
+
+  // This ugly hack gets rid of the top border of status bar
+  * {
+    border-style: none;
+    border-width: 0;
+  }
+
+  .status-bar {
+    height: 26px;
+    line-height: 26px;
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #5676cc;
+    color: white !important;
+    border-top-style: none;
+    border-top-width: 0;
+  }
   .status-bar * {color: white !important; font-weight: bold;}
 }
