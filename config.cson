@@ -10,12 +10,16 @@
     visible: false
   "autocomplete-plus":
     autoActivationDelay: 500
+  "autohide-tree-view":
+    pushEditor: true
+    showPinButton: false
   core:
     automaticallyUpdate: false
     disabledPackages: [
       "spell-check"
     ]
     followSymlinks: false
+    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
   dartlang:
     sdkLocation: "/usr/local/opt/dart/libexec"
@@ -28,5 +32,6 @@
   "exception-reporting":
     userId: "84597031-1968-4be8-b75c-742e4c300697"
   "one-dark-ui": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
