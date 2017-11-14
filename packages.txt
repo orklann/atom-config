@@ -1,4 +1,5 @@
 atom-toolbar@0.1.6
 dartlang@0.7.1
+editorconfig@2.2.2
 linter@2.2.0
 
