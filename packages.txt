@@ -2,5 +2,7 @@ atom-toolbar@0.1.6
 dartlang@0.7.1
 editorconfig@2.2.2
 file-icons@2.1.13
+ide-purescript@0.19.1
+language-purescript@0.8.3
 linter@2.2.0
 
