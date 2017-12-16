@@ -32,10 +32,13 @@
   "exception-reporting":
     userId: "84597031-1968-4be8-b75c-742e4c300697"
   "one-dark-ui": {}
-  "tree-view": {}
+  "tree-view":
+    alwaysOpenExisting: true
   welcome:
     showOnStartup: false
-
+".psci.purescript.source":
+  editor:
+    tabLength: 2
 ".purescript.source":
   editor:
     tabLength: 2
