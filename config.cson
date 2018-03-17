@@ -21,6 +21,10 @@
     followSymlinks: false
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "neptune-syntax"
+    ]
   dartlang:
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
