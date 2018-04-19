@@ -25,6 +25,7 @@
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
   editor:
+    atomicSoftTabs: false
     fontFamily: "Source Code Pro"
     fontSize: 13
     softWrap: true
