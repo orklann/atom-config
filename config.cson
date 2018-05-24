@@ -10,6 +10,14 @@
     visible: false
   "autocomplete-plus":
     autoActivationDelay: 500
+  "autocomplete-python":
+    caseInsensitiveCompletion: false
+    extraPaths: "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
+    outputDebug: true
+    pythonPaths: "/usr/local/bin/python"
+    showTooltips: true
+    useKite: false
+    useSnippets: "all"
   "autohide-tree-view":
     pushEditor: true
     showPinButton: false
@@ -17,6 +25,7 @@
     automaticallyUpdate: false
     disabledPackages: [
       "spell-check"
+      "autocomplete-python"
     ]
     followSymlinks: false
     restorePreviousWindowsOnStart: "no"
@@ -33,6 +42,9 @@
     tabType: "soft"
   "exception-reporting":
     userId: "84597031-1968-4be8-b75c-742e4c300697"
+  kite:
+    editorMetricsEnabled: "no"
+    showWelcomeNotificationOnStartup: false
   minimap:
     adjustAbsoluteModeHeight: true
   "one-dark-ui": {}
