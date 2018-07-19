@@ -10,6 +10,11 @@
     visible: false
   "autocomplete-plus":
     autoActivationDelay: 500
+    consumeSuffix: false
+    defaultProvider: "Symbol"
+    maxVisibleSuggestions: 100
+    strictMatching: true
+    suggestionListFollows: "Cursor"
   "autocomplete-python":
     caseInsensitiveCompletion: false
     extraPaths: "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
