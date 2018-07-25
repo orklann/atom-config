@@ -1,4 +1,5 @@
 atom-toolbar@0.1.6
+autocomplete-python@1.10.5
 brilliance-white-theme@1.0.0
 editorconfig@2.2.2
 file-icons@2.1.13

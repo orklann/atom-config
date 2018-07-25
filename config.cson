@@ -30,7 +30,6 @@
     automaticallyUpdate: false
     disabledPackages: [
       "spell-check"
-      "autocomplete-python"
     ]
     followSymlinks: false
     restorePreviousWindowsOnStart: "no"
