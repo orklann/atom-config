@@ -39,7 +39,7 @@
     sendUsage: false
   editor:
     atomicSoftTabs: false
-    fontFamily: "Source Code Pro"
+    fontFamily: "Andale Mono"
     fontSize: 13
     softWrap: true
     tabLength: 4
