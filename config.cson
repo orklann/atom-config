@@ -34,6 +34,10 @@
     followSymlinks: false
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
+    themes: [
+      "neutron-ui"
+      "neutron-syntax"
+    ]
   dartlang:
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
