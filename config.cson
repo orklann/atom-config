@@ -6,6 +6,8 @@
     ignored: [
       "linter"
     ]
+  "atom-spotify2":
+    showEqualizer: true
   "atom-toolbar":
     visible: false
   "autocomplete-plus":

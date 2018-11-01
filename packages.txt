@@ -1,3 +1,4 @@
+atom-spotify2@2.1.2
 atom-toolbar@0.1.6
 autocomplete-python@1.10.5
 brilliance-white-theme@1.0.0
@@ -8,4 +9,6 @@ language-purescript@0.8.3
 linter@2.2.0
 minimap@4.29.8
 neptune-syntax@2.0.0
+neutron-syntax@0.7.0
+neutron-ui@0.4.0
 
