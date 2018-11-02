@@ -15,7 +15,13 @@
 ## Package `atom-ctags`
 
 1. Install ctags by running `brew install ctags`
-2. Add alias ctags="`brew --prefix`/bin/ctags" to `~/.config/fish/config.fish`
+2. Add
+
+```
+alias ctags="`brew --prefix`/bin/ctags"
+```
+
+to `~/.config/fish/config.fish`
 
 ## Issue with Atom & macOS Mojave (Text too dimmed)
 
