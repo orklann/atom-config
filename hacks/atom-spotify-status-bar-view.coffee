@@ -24,11 +24,16 @@ class AtomSpotifyStatusBarView extends HTMLElement
       @soundBars.appendChild(soundBar)
 
     div.appendChild(@soundBars)
+    music = document.createElement('span')
+    music.textContent = "♫"
+    music.classList.add('spotify-music-notation')
+    div.appendChild(music)
 
     @trackInfo = document.createElement('span')
     @trackInfo.classList.add('track-info')
     @trackInfo.textContent = ''
     marquee = document.createElement('marquee')
+    marquee.classList.add('track-info')
     marquee.appendChild(@trackInfo)
     div.appendChild(marquee)
 
@@ -57,7 +62,7 @@ class AtomSpotifyStatusBarView extends HTMLElement
                 trackInfoText = ""
                 if atom.config.get('atom-spotify2.showPlayStatus')
                   if !atom.config.get('atom-spotify2.showPlayIconAsText')
-                    trackInfoText = if state.state == 'playing' then '♫ ' else '|| '
+                    trackInfoText = if state.state == 'playing' then '' else ''
                   else
                     trackInfoText = if state.state == 'playing' then 'Now Playing: ' else 'Paused: '
                 trackInfoText += "#{track.artist} - #{track.name}"
