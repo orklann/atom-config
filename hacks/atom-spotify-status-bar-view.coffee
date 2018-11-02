@@ -28,7 +28,9 @@ class AtomSpotifyStatusBarView extends HTMLElement
     @trackInfo = document.createElement('span')
     @trackInfo.classList.add('track-info')
     @trackInfo.textContent = ''
-    div.appendChild(@trackInfo)
+    marquee = document.createElement('marquee')
+    marquee.appendChild(@trackInfo)
+    div.appendChild(marquee)
 
     @appendChild(div)
 
