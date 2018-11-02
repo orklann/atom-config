@@ -9,6 +9,4 @@ language-purescript@0.8.3
 linter@2.2.0
 minimap@4.29.8
 neptune-syntax@2.0.0
-neutron-syntax@0.7.0
-neutron-ui@0.4.0
 
