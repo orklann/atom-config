@@ -1,3 +1,4 @@
+atom-ctags@5.1.2
 atom-spotify2@2.1.2
 atom-toolbar@0.1.6
 autocomplete-python@1.10.5

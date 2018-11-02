@@ -32,6 +32,7 @@
     automaticallyUpdate: false
     disabledPackages: [
       "spell-check"
+      "symbols-view"
     ]
     followSymlinks: false
     restorePreviousWindowsOnStart: "no"
