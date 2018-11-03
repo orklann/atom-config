@@ -34,6 +34,7 @@
       "symbols-view"
     ]
     followSymlinks: false
+    packagesWithKeymapsDisabled: []
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
   dartlang:
