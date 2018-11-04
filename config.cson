@@ -2,6 +2,9 @@
   _dartlang:
     _firstRun: true
     _version: "0.7.1"
+  "atom-itunes":
+    itunesRefreshInterval: 1000
+    showNotes: true
   "atom-package-deps":
     ignored: [
       "linter"
