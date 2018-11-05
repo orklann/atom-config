@@ -1,4 +1,5 @@
 atom-ctags@5.1.2
+atom-itunes@0.5.0
 atom-spotify2@2.1.2
 atom-toolbar@0.1.6
 autocomplete-python@1.10.5
@@ -10,4 +11,5 @@ language-purescript@0.8.3
 linter@2.2.0
 minimap@4.29.8
 neptune-syntax@2.0.0
+python-indent@1.1.6
 
