@@ -9,8 +9,7 @@
     ignored: [
       "linter"
     ]
-  "atom-spotify2":
-    showEqualizer: true
+  "atom-spotify2": {}
   "atom-toolbar":
     visible: false
   "autocomplete-plus":
@@ -35,6 +34,7 @@
     disabledPackages: [
       "spell-check"
       "symbols-view"
+      "atom-itunes"
     ]
     followSymlinks: false
     packagesWithKeymapsDisabled: []
