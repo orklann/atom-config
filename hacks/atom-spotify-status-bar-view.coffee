@@ -69,9 +69,9 @@ class AtomSpotifyStatusBarView extends HTMLElement
 
                 if !atom.config.get('atom-spotify2.showEqualizer')
                   if atom.config.get('atom-spotify2.showPlayStatus')
-                    trackInfoText += " ♫"
+                    trackInfoText += ""
                   else
-                    trackInfoText = "♫ " + trackInfoText
+                    trackInfoText += ""
 
                 @trackInfo.textContent = trackInfoText
               else
