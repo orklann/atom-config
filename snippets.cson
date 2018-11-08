@@ -32,3 +32,8 @@
   '电费用户编号':
     'prefix': '电费'
     'body': '0351005108423926'
+
+'.source.python':
+    'header':
+      'prefix': 'header'
+      'body': '# -*- coding: utf-8 -*-'

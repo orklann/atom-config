@@ -30,7 +30,6 @@
     pushEditor: true
     showPinButton: false
   core:
-    automaticallyUpdate: false
     disabledPackages: [
       "spell-check"
       "symbols-view"
@@ -40,6 +39,7 @@
     packagesWithKeymapsDisabled: []
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
+    useTreeSitterParsers: false
   dartlang:
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
