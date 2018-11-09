@@ -16,7 +16,9 @@
     autoActivationDelay: 500
     consumeSuffix: false
     defaultProvider: "Symbol"
+    extraWordCharacters: "_"
     maxVisibleSuggestions: 100
+    minimumWordLength: 1
     suggestionListFollows: "Cursor"
   "autocomplete-python":
     caseInsensitiveCompletion: false
