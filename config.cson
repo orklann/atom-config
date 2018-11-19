@@ -49,6 +49,7 @@
     atomicSoftTabs: false
     fontFamily: "Andale Mono"
     fontSize: 13
+    preferredLineLength: 84
     softWrap: true
     tabLength: 4
     tabType: "soft"
