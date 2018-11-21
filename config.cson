@@ -46,7 +46,6 @@
     sdkLocation: "/usr/local/opt/dart/libexec"
     sendUsage: false
   editor:
-    atomicSoftTabs: false
     fontFamily: "Andale Mono"
     fontSize: 13
     preferredLineLength: 84
