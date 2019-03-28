@@ -22,8 +22,9 @@
     suggestionListFollows: "Cursor"
   "autocomplete-python":
     caseInsensitiveCompletion: false
-    extraPaths: "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
+    extraPaths: "/Users/aaron/tmp/fake-bpy-module/premade_modules/2.80/e5e885d0ecb9430a73e0a904cdb6035a2ef77e98/;/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
     outputDebug: true
+    outputProviderErrors: true
     pythonPaths: "/usr/local/bin/python"
     showTooltips: true
     useKite: false
