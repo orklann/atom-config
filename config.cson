@@ -28,7 +28,7 @@
     pythonPaths: "/usr/local/bin/python"
     showTooltips: true
     useKite: false
-    useSnippets: "all"
+    useSnippets: "required"
   "autohide-tree-view":
     pushEditor: true
     showPinButton: false
